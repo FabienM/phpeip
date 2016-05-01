@@ -14,5 +14,7 @@
             "email": "fabien@meurillon.org"
         }
     ],
-    "require": {}
+    "require": {
+        "psr/http-message": "1.0.0"
+    }
 }
