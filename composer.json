@@ -8,6 +8,11 @@
             "Phpeip\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Phpeip\\": "tests"
+        }
+    },
     "authors": [
         {
             "name": "Fabien Meurillon",
@@ -15,6 +20,10 @@
         }
     ],
     "require": {
-        "psr/http-message": "1.0.0"
+        "psr/http-message": "1.0.0",
+        "guzzlehttp/psr7": "~1.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8|5.0"
     }
 }
